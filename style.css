@@ -1,6 +1,8 @@
-.col
-            {
-                display: flex;
-                padding: 1 em;
-                justify-content:space-around;
-            }
+.col {
+    display: flex;
+    padding: 1 em;
+    justify-content:space-around;
+    }
+.fac {
+    width: 10em;
+    }
