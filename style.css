@@ -60,6 +60,7 @@ h2 {
 footer {
     display: flex !important;
     justify-content: space-between;
+    background-color: #DCF5B8 !important;
 }
 
 footer a{
@@ -69,6 +70,11 @@ footer a{
 nav li{
     margin:0.5em;
 }
+
+nav li a{
+    color: black !important;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -81,4 +87,8 @@ nav{
 }
 carousel-inner{
     max-height: 20em;
+}
+
+header {
+    background-color: #DCF5B8;
 }
