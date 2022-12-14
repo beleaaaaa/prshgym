@@ -54,6 +54,10 @@ footer {
     justify-content: space-between;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .meniu{
     display: flex;
     justify-content: space-between;
