@@ -32,3 +32,13 @@ body {
 h2 {
     padding-top: 1em;
 }
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.navimg{
+    width:50 px;
+    height:50 px;
+}
