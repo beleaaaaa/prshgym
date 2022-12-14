@@ -2,11 +2,12 @@
     display: flex;
     padding: 1 em;
     margin: 1 em;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 body {
     padding: 1 em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card {
@@ -15,7 +16,7 @@ body {
     margin: 1em;
     align-content: center;
     justify-content: space-between;
-    
+    justify-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,12 +39,25 @@ h2 {
     align-items: center;
 }
 
-.navimg{
-    width: 1em;
-    height: 1em;
+.navbar a{
+    text-decoration: none; /*fără underline*/
+
 }
 
-.navbar-brand{
-    width: 1em;
-    height: 1em;
+.container-fluid img{
+    width: 2em;
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meniu{
+    display: flex;
+    justify-content: space-between;
+}
+.meniu li{
+    margin:0.5em;
 }
