@@ -39,6 +39,11 @@ h2 {
 }
 
 .navimg{
-    width:50 px;
-    height:50 px;
+    width: 1em;
+    height: 1em;
+}
+
+.navbar-brand{
+    width: 1em;
+    height: 1em;
 }
